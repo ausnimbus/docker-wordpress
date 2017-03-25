@@ -1,5 +1,4 @@
-FROM centos/php-70-centos7
-
+FROM ausnimbus/s2i-php-scl:latest
 MAINTAINER AusNimbus <support@ausnimbus.com.au>
 
 LABEL io.k8s.description="WordPress quickstart deployment. S2I and scaling to more than one replica is not supported." \
