@@ -1,7 +1,7 @@
 #!/bin/bash
 
-: ${WORDPRESS_VERSION:=4.7.3}
-: ${WORDPRESS_SHA1:=35adcd8162eae00d5bc37f35344fdc06b22ffc98}
+: ${WORDPRESS_VERSION:=4.8}
+: ${WORDPRESS_SHA1:=3738189a1f37a03fb9cb087160b457d7a641ccb4}
 
 # Install wordpress if it doesn't exist
 if [ ! -f /opt/app-root/src/wordpress/index.php ]; then
