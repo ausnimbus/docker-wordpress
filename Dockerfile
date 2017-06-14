@@ -1,4 +1,4 @@
-FROM quay.io/ausnimbus/s2i-php:7.0
+FROM quay.io/ausnimbus/s2i-php:5.6
 
 MAINTAINER AusNimbus <support@ausnimbus.com.au>
 
